@@ -1,0 +1,28 @@
+Process
+Input Data Berhasil diproses dan dilakukan query refinement
+{'attr_2': 40, 'attr_3': 2999, 'attr_0': 297, 'attr_1': 108, 'attr_6': 40, 'attr_4': 1500, 'attr_5': 200, 'label': 'target', 'id': 'target'}
+Subscribers : 85
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:01:42.353000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:01:32.608000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:01:06.633000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:33.109000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:14.380000
+
+
+total virtual yang memenuhi ekspektasi : 260
+
+Final Solutions:
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 1874.0, 'attr_1': 0.0, 'attr_6': 67.0, 'attr_4': -16.0, 'attr_5': 0.0, 'penalty': 5.2143153929694535, 'subscribers': 29971}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 1874.0, 'attr_1': 0.0, 'attr_6': 67.0, 'attr_4': -16.0, 'attr_5': 0.0, 'penalty': 5.2143153929694535, 'subscribers': 29971}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 1874.0, 'attr_1': 0.0, 'attr_6': 67.0, 'attr_4': -16.0, 'attr_5': 0.0, 'penalty': 5.2143153929694535, 'subscribers': 29971}
+{'attr_2': 4.0, 'attr_3': 134.0, 'attr_0': 2011.0, 'attr_1': 1.0, 'attr_6': 84.0, 'attr_4': -80.0, 'attr_5': 297.0, 'penalty': 5.286949916388321, 'subscribers': 28737}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 1874.0, 'attr_1': 0.0, 'attr_6': 67.0, 'attr_4': -113.0, 'attr_5': 0.0, 'penalty': 5.326439048883432, 'subscribers': 29971}
+{'attr_2': 4.0, 'attr_3': 0.0, 'attr_0': 1983.0, 'attr_1': 1.0, 'attr_6': 84.0, 'attr_4': -80.0, 'attr_5': 324.0, 'penalty': 5.361280818363168, 'subscribers': 28737}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 1874.0, 'attr_1': 0.0, 'attr_6': 67.0, 'attr_4': -153.0, 'attr_5': 0.0, 'penalty': 5.372675608023218, 'subscribers': 29971}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 2083.0, 'attr_1': 0.0, 'attr_6': 74.0, 'attr_4': -23.0, 'attr_5': 1087.0, 'penalty': 5.4282619682502835, 'subscribers': 29971}
+{'attr_2': 1.0, 'attr_3': 0.0, 'attr_0': 2083.0, 'attr_1': 0.0, 'attr_6': 74.0, 'attr_4': -23.0, 'attr_5': 1146.0, 'penalty': 5.4354205461283875, 'subscribers': 29971}
+{'attr_2': 2.0, 'attr_3': 0.0, 'attr_0': 2040.0, 'attr_1': 0.0, 'attr_6': 90.0, 'attr_4': -50.0, 'attr_5': 564.0, 'penalty': 5.435898927533651, 'subscribers': 29759}
+
+Running time : 0:00:00.013000
+Average running time for 10 expected solutions: 0:00:00.001300
+Memory usage: 938.131456 MB 

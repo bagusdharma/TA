@@ -1,0 +1,27 @@
+Process
+{'attr_2': 9742, 'attr_0': 8888, 'attr_1': 9867, 'id': 'target', 'label': 'target'}
+Subscribers : 2884
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:00:17.236000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:00:12.508000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:00:09.376000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:04.407000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:01.719000
+
+
+total virtual yang memenuhi ekspektasi : 223
+
+Final Solutions:
+{'penalty': 0.19612038796120387, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9695.0, 'subscribers': 22093}
+{'penalty': 0.20031996800319968, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9635.0, 'subscribers': 22093}
+{'penalty': 0.20481351864813518, 'attr_2': 9469.0, 'attr_0': 8050.8, 'attr_1': 8051.0, 'subscribers': 5904}
+{'penalty': 0.20892910708929108, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9512.0, 'subscribers': 22093}
+{'penalty': 0.2094610538946105, 'attr_2': 8061.8, 'attr_0': 8061.6, 'attr_1': 9381.0, 'subscribers': 21445}
+{'penalty': 0.21541045895410454, 'attr_2': 8073.6, 'attr_0': 8073.8, 'attr_1': 9272.0, 'subscribers': 21319}
+{'penalty': 0.21690830916908313, 'attr_2': 9238.0, 'attr_0': 8080.0, 'attr_1': 8080.0, 'subscribers': 8554}
+{'penalty': 0.21770622937706222, 'attr_2': 9173.0, 'attr_0': 8106.8, 'attr_1': 8106.8, 'subscribers': 9288}
+{'penalty': 0.2202119788021198, 'attr_2': 9351.0, 'attr_0': 8000.0, 'attr_1': 7999.8, 'subscribers': 7312}
+{'penalty': 0.22289971002899714, 'attr_2': 8124.2, 'attr_0': 8124.2, 'attr_1': 9064.0, 'subscribers': 20746}
+
+Running time (exclude pre compute): 0:00:00.015000
+Average running time for 10 expected solutions: 0:00:00.001500
+Memory usage: 228.036608 MB 

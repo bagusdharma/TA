@@ -1,0 +1,27 @@
+Process
+{'attr_2': 7955, 'attr_3': 7589, 'attr_0': 6816, 'attr_1': 7700, 'attr_4': 8599, 'label': 'target', 'id': 'target'}
+Subscribers : 42060
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:00:43.159000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:00:29.843000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:00:21.169000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:09.342000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:02.970000
+
+
+total virtual yang memenuhi ekspektasi : 64
+
+Final Solutions:
+{'attr_2': 7999.2, 'attr_3': 8000.2, 'attr_0': 7999.4, 'attr_1': 7999.4, 'attr_4': 8843.0, 'penalty': 0.17456378522147775, 'subscribers': 42018}
+{'attr_2': 7999.2, 'attr_3': 8000.2, 'attr_0': 7999.4, 'attr_1': 7999.4, 'attr_4': 8890.0, 'penalty': 0.1783237852214778, 'subscribers': 42018}
+{'attr_2': 7918.0, 'attr_3': 7834.0, 'attr_0': 7857.0, 'attr_1': 7877.0, 'attr_4': 7837.0, 'penalty': 0.1809499610038998, 'subscribers': 42094}
+{'attr_2': 7981.0, 'attr_3': 8027.0, 'attr_0': 8019.0, 'attr_1': 8011.0, 'attr_4': 8030.0, 'penalty': 0.20374768123187675, 'subscribers': 42042}
+{'attr_2': 7999.2, 'attr_3': 8000.2, 'attr_0': 7999.4, 'attr_1': 7999.4, 'attr_4': 9324.0, 'penalty': 0.21304378522147777, 'subscribers': 42018}
+{'attr_2': 7400.0, 'attr_3': 7376.0, 'attr_0': 7356.0, 'attr_1': 7532.0, 'attr_4': 7404.0, 'penalty': 0.2136698970102991, 'subscribers': 42589}
+{'attr_2': 7999.2, 'attr_3': 8000.2, 'attr_0': 7999.4, 'attr_1': 7999.4, 'attr_4': 9483.0, 'penalty': 0.2257637852214778, 'subscribers': 42018}
+{'attr_2': 7999.8, 'attr_3': 8839.0, 'attr_0': 8000.0, 'attr_1': 7999.8, 'attr_4': 7999.8, 'penalty': 0.2702117724227578, 'subscribers': 42013}
+{'attr_2': 7999.6, 'attr_3': 7999.6, 'attr_0': 8849.0, 'attr_1': 8000.0, 'attr_4': 7999.4, 'penalty': 0.2710049811018898, 'subscribers': 42017}
+{'attr_2': 7999.6, 'attr_3': 7999.6, 'attr_0': 8898.0, 'attr_1': 8000.0, 'attr_4': 7999.4, 'penalty': 0.2749245891410859, 'subscribers': 42017}
+
+Running time (exclude pre compute): 0:00:00.004000
+Average running time for 10 expected solutions: 0:00:00.000400
+Memory usage: 491.556864 MB 

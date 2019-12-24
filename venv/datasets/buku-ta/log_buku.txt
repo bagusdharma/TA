@@ -1,0 +1,29 @@
+Process
+data node masuk pada cluster ke - : 
+[2 0 0 1 2 1 2 1 2 0 1 1 0 1 2]
+data node cluster ke - 0 : [{'attr_0': 32.0, 'attr_1': 41.0, 'id': '2', 'label': 'R2'},
+{'attr_0': 19.0, 'attr_1': 27.0, 'id': '3', 'label': 'R3'},
+{'attr_0': 22.0, 'attr_1': 33.0, 'id': '10', 'label': 'R10'},
+ {'attr_0': 9.0, 'attr_1': 13.0, 'id': '13', 'label': 'R13'}]
+
+data node cluster ke - 1 : [{'attr_0': 78.0, 'attr_1': 93.0, 'id': '4', 'label': 'R4'},
+{'attr_0': 90.0, 'attr_1': 77.0, 'id': '6', 'label': 'R6'},
+ {'attr_0': 94.0, 'attr_1': 86.0, 'id': '8', 'label': 'R8'},
+ {'attr_0': 81.0, 'attr_1': 44.0, 'id': '11', 'label': 'R11'},
+ {'attr_0': 63.0, 'attr_1': 62.0, 'id': '12', 'label': 'R12'},
+ {'attr_0': 87.0, 'attr_1': 10.0, 'id': '14', 'label': 'R14'}]
+
+data node cluster ke - 2 : [{'attr_0': 35.0, 'attr_1': 94.0, 'id': '1', 'label': 'R1'},
+ {'attr_0': 28.0, 'attr_1': 71.0, 'id': '5', 'label': 'R5'},
+ {'attr_0': 48.0, 'attr_1': 88.0, 'id': '7', 'label': 'R7'},
+  {'attr_0': 52.0, 'attr_1': 92.0, 'id': '9', 'label': 'R9'},
+  {'attr_0': 12.0, 'attr_1': 94.0, 'id': '15', 'label': 'R15'}]
+
+
+Jumlah Children / skor Node yang berada pada cluster ke - 0 adalah 15
+Jumlah Children / skor Node yang berada pada cluster ke - 1 adalah 6
+Jumlah Children / skor Node yang berada pada cluster ke - 2 adalah 14
+
+titk virtual node dari 10 cluster :
+ {'attr_0': [9.0, 63.0, 12.0],
+  'attr_1': [13.0, 10.0, 71.0]}

@@ -1,0 +1,28 @@
+Process
+Input Data Berhasil diproses dan dilakukan query refinement
+{'attr_2': 40, 'attr_3': 2999, 'attr_0': 297, 'attr_1': 108, 'attr_4': 40, 'label': 'target', 'id': 'target'}
+Subscribers : 75
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:01:39.585000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:01:39.496000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:01:01.345000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:37.137000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:11.936000
+
+
+total virtual yang memenuhi ekspektasi : 260
+
+Final Solutions:
+{'attr_2': 4.0, 'attr_3': 959.0, 'attr_0': 2919.0, 'attr_1': 0.0, 'attr_4': 46.0, 'penalty': 3.0673953913370693, 'subscribers': 28872}
+{'attr_2': 4.0, 'attr_3': 953.0, 'attr_0': 2919.0, 'attr_1': 0.0, 'attr_4': 23.0, 'penalty': 3.0830124662805587, 'subscribers': 28872}
+{'attr_2': 14.0, 'attr_3': 150.0, 'attr_0': 1942.0, 'attr_1': 0.0, 'attr_4': -21.0, 'penalty': 3.100916808609448, 'subscribers': 14196}
+{'attr_2': 15.0, 'attr_3': 162.0, 'attr_0': 1942.0, 'attr_1': 1.0, 'attr_4': -57.0, 'penalty': 3.1162915724629148, 'subscribers': 12634}
+{'attr_2': 1.0, 'attr_3': 720.0, 'attr_0': 2833.0, 'attr_1': 124.0, 'attr_4': -91.0, 'penalty': 3.1543369202261635, 'subscribers': 29967}
+{'attr_2': 1.0, 'attr_3': 907.0, 'attr_0': 3144.0, 'attr_1': 42.0, 'attr_4': 63.0, 'penalty': 3.1568389377049613, 'subscribers': 29967}
+{'attr_2': 1.0, 'attr_3': 858.0, 'attr_0': 3144.0, 'attr_1': 42.0, 'attr_4': 40.0, 'penalty': 3.1625610191541624, 'subscribers': 29967}
+{'attr_2': 5.0, 'attr_3': 150.0, 'attr_0': 1999.0, 'attr_1': 184.0, 'attr_4': -31.0, 'penalty': 3.1878283998077053, 'subscribers': 27999}
+{'attr_2': 3.0, 'attr_3': 570.0, 'attr_0': 2716.0, 'attr_1': 124.0, 'attr_4': 186.0, 'penalty': 3.189487880723648, 'subscribers': 29438}
+{'attr_2': 5.0, 'attr_3': 0.0, 'attr_0': 1899.0, 'attr_1': 178.0, 'attr_4': -3.0, 'penalty': 3.197672725859812, 'subscribers': 27999}
+
+Running time : 0:00:00.004000
+Average running time for 10 expected solutions: 0:00:00.000400
+Memory usage: 520.527872 MB 

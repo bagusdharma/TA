@@ -1,0 +1,28 @@
+Process
+Input Data Berhasil diproses dan dilakukan query refinement
+{'attr_2': 9898, 'attr_0': 7578, 'attr_1': 9896, 'id': 'target', 'label': 'target'}
+Subscribers : 1180
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:00:17.404000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:00:12.145000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:00:10.294000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:05.815000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:01.851000
+
+
+total virtual yang memenuhi ekspektasi : 249
+
+Final Solutions:
+{'penalty': 0.1760463953604639, 'attr_2': 9701.0, 'attr_0': 8000.0, 'attr_1': 7999.8, 'subscribers': 3358}
+{'penalty': 0.17645235476452353, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9695.0, 'subscribers': 22093}
+{'penalty': 0.18100189981001905, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9630.0, 'subscribers': 22093}
+{'penalty': 0.18297570242975697, 'attr_2': 9602.0, 'attr_0': 8000.0, 'attr_1': 7999.8, 'subscribers': 4439}
+{'penalty': 0.18856114388561143, 'attr_2': 8000.0, 'attr_0': 8000.0, 'attr_1': 9522.0, 'subscribers': 22093}
+{'penalty': 0.1891350864913508, 'attr_2': 9514.0, 'attr_0': 8000.0, 'attr_1': 7999.8, 'subscribers': 5370}
+{'penalty': 0.19689031096890316, 'attr_2': 9403.0, 'attr_0': 8060.0, 'attr_1': 8060.0, 'subscribers': 6715}
+{'penalty': 0.19841615838416163, 'attr_2': 8061.8, 'attr_0': 8061.6, 'attr_1': 9381.0, 'subscribers': 21445}
+{'penalty': 0.20618538146185383, 'attr_2': 8074.8, 'attr_0': 8074.6, 'attr_1': 9270.0, 'subscribers': 21311}
+{'penalty': 0.20843915608439156, 'attr_2': 9238.0, 'attr_0': 8080.0, 'attr_1': 8080.0, 'subscribers': 8554}
+
+Running time : 0:00:00.001000
+Average running time for 10 expected solutions: 0:00:00.000100
+Memory usage: 225.353728 MB 

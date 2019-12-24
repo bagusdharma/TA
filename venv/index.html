@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tugas Akhir - Bagus Dharma Iswara - 05111540000028</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="vis-4.21.0/dist/vis.css">
+  </head>
+  <body class="bg-secondary">
+
+    <div class="container">
+      <div class="row">
+        <div class="card mt-4" style="width:100%;">
+          <div class="card-header">
+            <h5 class="card-title">
+              Desain dan Implementasi Aplikasi untuk Menjawab Permasalahan <span class="font-italic">Why-Not on Reaching k Subscribers</span>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Oleh: Bagus Dharma Iswara (05111540000028)
+            </h6>
+          </div>
+          <div class="card-body row">
+            <div class="nav flex-column nav-pills col-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link" data-toggle="pill" href="#dataset" role="tab">Dataset</a>
+              <a class="nav-link active" data-toggle="pill" href="#input" role="tab">Input</a>
+              <a class="nav-link" id="tab-output" data-toggle="pill" href="#output" role="tab">Output</a>
+            </div>
+            <div class="tab-content col-10" id="v-pills-tabContent">
+              <div class="tab-pane fade" id="dataset" role="tabpanel">
+                <div class="row mb-3">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">UPLOAD DATASET</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gunakan hanya format CSV dan data tipe numerik</h6>
+                        <!--pada form.js fungsi upload-dataset-->
+                        <form id="upload-dataset">
+                          <div class="form-group">
+                            <input type="file" class="form-control-file" id="dataset-file">
+                          </div>
+                          <button id="upload-dataset-btn" type="submit" class="btn btn-primary" data-loading-text="Memproses...">Upload</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">DATASET</h5>
+                        <p id="dataset-loading" class="card-subtitle mb-2 text-muted" style="display:none;">Loading...</p>
+                        <table class="table table-bordered">
+                          <thead id="dataset-head"></thead>
+                          <tbody id="dataset-body"></tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade show active" id="input" role="tabpanel">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">GRAF (CDG)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Visualisasi Struktur Data Close Dominance Graph (CDG)</h6>
+                    <!--mynetwork berada pada graphbuilder.js pada create a network-->
+                    <div id="mynetwork" style="height:400px;"></div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">INPUT QUERY AWAL</h5>
+                    <form id="submit-query">
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1" required>Nilai Atribut</label>
+                        <input type="text" class="form-control" name="q" placeholder="Masukkan semua nilai atribut dipisahkan dengan tanda koma. Contoh: 2466,90,4">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Bobot Penambahan Nilai Atribut</label>
+                        <input type="text" class="form-control" name="w" placeholder="Masukkan semua nilai bobot atribut dipisahkan dengan tanda koma. Contoh: 0.3,0.3,0.3">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Ekspektasi Jumlah Subscribers</label>
+                        <input type="number" class="form-control" name="k">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1">Algoritma</label>
+                        <select class="form-control" name="algo">
+                          <option value="web-solution.py">Algoritma Berbasis CDG</option>
+                          <option value="bruteforce_solution.py">Brute Force</option>
+                        </select>
+                      </div>
+                      <button id="submit-query-btn" type="submit" class="btn btn-primary" data-loading-text="Loading...">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="output" role="tabpanel">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="alert alert-primary" role="alert">
+                      <span id="runtime-loading" style="display:none;">Menghitung waktu eksekusi...</span>
+                      <span id="runtime" style="display:none;"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h5 class="card-title">QUERY AWAL</h5>
+                        <p id="initial-query-loading" class="card-subtitle mb-2 text-muted" style="display:none;">Loading...</p>
+                        <table class="table table-bordered">
+                          <tbody id="initial-query"></tbody>
+                          <tbody id="initial-query-fixed">
+                            <tr>
+                              <th scope="row">Subscribers</th>
+                              <td id="initial-query-subs"></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Penalty</th>
+                              <td>0.0</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h5 class="card-title">REFINED QUERY</h5>
+                        <p id="best-solution-loading" class="card-subtitle mb-2 text-muted" style="display:none;">Loading...</p>
+                        <table class="table table-bordered">
+                          <tbody id="best-solution"></tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h5 class="card-title">KANDIDAT SOLUSI</h5>
+                        <p id="cand-loading" class="card-subtitle mb-2 text-muted" style="display:none;">Loading...</p>
+                        <table class="table table-bordered">
+                          <thead id="cand-head"></thead>
+                          <tbody id="cand-body"></tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="init-success" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Program Berhasil</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Masukan anda berhasil diproses oleh program.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Lihat Hasil</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="upload-success" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Pemrosesan Data Berhasil</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Data anda berhasil diunggah dan telah dilakukan preprocessing.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vis-4.21.0/dist/vis.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/graphbuilder.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>

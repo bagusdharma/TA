@@ -1,0 +1,67 @@
+Process
+{'attr_2': 9742, 'attr_3': 8888, 'attr_0': 9867, 'attr_1': 9867, 'attr_4': 9867, 'label': 'target', 'id': 'target'}
+Subscribers : 3306
+>> Waktu proses Pre-Compute Time 100 Cluster : 0:00:20.314000
+>> Waktu proses Pre-Compute Time 75 Cluster : 0:00:16.224000
+>> Waktu proses Pre-Compute Time 50 Cluster : 0:00:11.450000
+>> Waktu proses Pre-Compute Time 25 Cluster : 0:00:05.281000
+>> Waktu proses Pre-Compute Time 10 Cluster : 0:00:01.720000
+
+
+total virtual yang memenuhi ekspektasi : 225
+
+Final Solutions:
+{'attr_2': 9566.0, 'attr_3': 8000.4, 'attr_0': 8000.6, 'attr_1': 8000.4, 'attr_4': 8000.2, 'penalty': 0.533112520740906, 'subscribers': 5480}
+{'attr_2': 7999.8, 'attr_3': 8000.0, 'attr_0': 7999.8, 'attr_1': 9555.0, 'attr_4': 7999.8, 'penalty': 0.5341687095789933, 'subscribers': 25268}
+{'attr_2': 8000.4, 'attr_3': 8000.6, 'attr_0': 9550.0, 'attr_1': 8000.4, 'attr_4': 8000.6, 'penalty': 0.5343731805120243, 'subscribers': 25260}
+{'attr_2': 8001.2, 'attr_3': 8001.2, 'attr_0': 8001.0, 'attr_1': 8001.0, 'attr_4': 9533.0, 'penalty': 0.5355535561463872, 'subscribers': 25252}
+{'attr_2': 8089.4, 'attr_3': 8089.6, 'attr_0': 8089.4, 'attr_1': 9085.0, 'attr_4': 8089.8, 'penalty': 0.5430707970531568, 'subscribers': 24160}
+{'attr_2': 8090.6, 'attr_3': 8090.8, 'attr_0': 9076.0, 'attr_1': 8090.8, 'attr_4': 8090.6, 'penalty': 0.5434308042410736, 'subscribers': 24146}
+{'attr_2': 9079.0, 'attr_3': 8089.2, 'attr_0': 8089.6, 'attr_1': 8089.6, 'attr_4': 8089.6, 'penalty': 0.5435668850718806, 'subscribers': 11648}
+{'attr_2': 8094.4, 'attr_3': 8094.8, 'attr_0': 8094.6, 'attr_1': 8094.4, 'attr_4': 9051.0, 'penalty': 0.5442065697993878, 'subscribers': 24102}
+{'attr_2': 8001.2, 'attr_3': 8001.2, 'attr_0': 8001.0, 'attr_1': 8001.0, 'attr_4': 9353.0, 'penalty': 0.5499535561463873, 'subscribers': 25252}
+{'attr_2': 8196.0, 'attr_3': 8560.0, 'attr_0': 8195.6, 'attr_1': 8195.8, 'attr_4': 8195.8, 'penalty': 0.5510862342967271, 'subscribers': 22856}
+{'attr_2': 8000.4, 'attr_3': 8000.6, 'attr_0': 9340.0, 'attr_1': 8000.4, 'attr_4': 8000.6, 'penalty': 0.5511748606800411, 'subscribers': 25260}
+{'attr_2': 9333.0, 'attr_3': 8000.4, 'attr_0': 8000.6, 'attr_1': 8000.4, 'attr_4': 8000.2, 'penalty': 0.5517562494866551, 'subscribers': 8447}
+{'attr_2': 7999.8, 'attr_3': 8000.0, 'attr_0': 7999.8, 'attr_1': 9333.0, 'attr_4': 7999.8, 'penalty': 0.5519322622895355, 'subscribers': 25268}
+{'attr_2': 8001.2, 'attr_3': 8001.2, 'attr_0': 8001.0, 'attr_1': 8001.0, 'attr_4': 9328.0, 'penalty': 0.5519535561463873, 'subscribers': 25252}
+{'attr_2': 8190.2, 'attr_3': 8190.2, 'attr_0': 8190.2, 'attr_1': 8190.2, 'attr_4': 8569.0, 'penalty': 0.5521555018333453, 'subscribers': 22928}
+{'attr_2': 8187.8, 'attr_3': 8187.8, 'attr_0': 8578.0, 'attr_1': 8187.6, 'attr_4': 8188.0, 'penalty': 0.5522004599409971, 'subscribers': 22956}
+{'attr_2': 8183.4, 'attr_3': 8183.2, 'attr_0': 8183.4, 'attr_1': 8589.0, 'attr_4': 8183.2, 'penalty': 0.5527572269897343, 'subscribers': 23003}
+{'attr_2': 8582.0, 'attr_3': 8184.6, 'attr_0': 8184.6, 'attr_1': 8184.6, 'attr_4': 8184.4, 'penalty': 0.552917321406218, 'subscribers': 18036}
+{'attr_2': 8000.4, 'attr_3': 8000.6, 'attr_0': 9318.0, 'attr_1': 8000.4, 'attr_4': 8000.6, 'penalty': 0.5529350366976429, 'subscribers': 25260}
+{'attr_2': 8133.8, 'attr_3': 8134.0, 'attr_0': 8134.0, 'attr_1': 8672.0, 'attr_4': 8133.6, 'penalty': 0.5619406941617127, 'subscribers': 23606}
+{'attr_2': 8142.6, 'attr_3': 8636.0, 'attr_0': 8143.0, 'attr_1': 8142.8, 'attr_4': 8143.0, 'penalty': 0.5619529658185655, 'subscribers': 23499}
+{'attr_2': 8664.0, 'attr_3': 8135.2, 'attr_0': 8135.2, 'attr_1': 8134.8, 'attr_4': 8135.0, 'penalty': 0.5621968061821974, 'subscribers': 16960}
+{'attr_2': 8132.8, 'attr_3': 8132.6, 'attr_0': 8671.0, 'attr_1': 8132.8, 'attr_4': 8132.4, 'penalty': 0.5624090314621755, 'subscribers': 23623}
+{'attr_2': 8130.8, 'attr_3': 8131.2, 'attr_0': 8130.8, 'attr_1': 8130.8, 'attr_4': 8678.0, 'penalty': 0.5624134063083011, 'subscribers': 23642}
+{'attr_2': 8136.8, 'attr_3': 8136.4, 'attr_0': 8646.0, 'attr_1': 8136.8, 'attr_4': 8136.6, 'penalty': 0.5631291338535327, 'subscribers': 23563}
+{'attr_2': 8135.2, 'attr_3': 8134.8, 'attr_0': 8135.0, 'attr_1': 8134.8, 'attr_4': 8643.0, 'penalty': 0.5639172670751759, 'subscribers': 23590}
+{'attr_2': 8379.6, 'attr_3': 7646.0, 'attr_0': 8379.4, 'attr_1': 8379.6, 'attr_4': 8379.4, 'penalty': 0.565407572904884, 'subscribers': 20575}
+{'attr_2': 8379.4, 'attr_3': 8379.4, 'attr_0': 8379.6, 'attr_1': 7631.0, 'attr_4': 8379.4, 'penalty': 0.5666414211147021, 'subscribers': 20577}
+{'attr_2': 8098.2, 'attr_3': 9025.0, 'attr_0': 8098.2, 'attr_1': 8098.4, 'attr_4': 8098.4, 'penalty': 0.567011665246635, 'subscribers': 24055}
+{'attr_2': 8379.8, 'attr_3': 8379.8, 'attr_0': 7623.0, 'attr_1': 8380.0, 'attr_4': 8380.0, 'penalty': 0.5671314849211629, 'subscribers': 20572}
+{'attr_2': 7615.0, 'attr_3': 8380.6, 'attr_0': 8380.4, 'attr_1': 8380.8, 'attr_4': 8380.6, 'penalty': 0.5675536579598315, 'subscribers': 25500}
+{'attr_2': 8383.2, 'attr_3': 8383.2, 'attr_0': 8383.2, 'attr_1': 8383.6, 'attr_4': 7572.0, 'penalty': 0.5701173178878176, 'subscribers': 20529}
+{'attr_2': 8471.6, 'attr_3': 7181.0, 'attr_0': 8471.6, 'attr_1': 8471.6, 'attr_4': 8471.2, 'penalty': 0.5731601710141615, 'subscribers': 19457}
+{'attr_2': 8391.6, 'attr_3': 8391.6, 'attr_0': 7491.0, 'attr_1': 8391.4, 'attr_4': 8391.6, 'penalty': 0.5739642641430794, 'subscribers': 20423}
+{'attr_2': 8390.4, 'attr_3': 8390.4, 'attr_0': 8390.6, 'attr_1': 8390.4, 'attr_4': 7495.0, 'penalty': 0.5739890922313287, 'subscribers': 20439}
+{'attr_2': 8388.6, 'attr_3': 8388.4, 'attr_0': 8388.8, 'attr_1': 7494.0, 'attr_4': 8388.8, 'penalty': 0.5746594647091838, 'subscribers': 20454}
+{'attr_2': 8474.8, 'attr_3': 8474.8, 'attr_0': 8475.0, 'attr_1': 7147.0, 'attr_4': 8474.8, 'penalty': 0.574839639805831, 'subscribers': 19423}
+{'attr_2': 8476.4, 'attr_3': 8476.2, 'attr_0': 7118.0, 'attr_1': 8476.4, 'attr_4': 8476.4, 'penalty': 0.5766692078303675, 'subscribers': 19403}
+{'attr_2': 7111.0, 'attr_3': 8477.6, 'attr_0': 8477.8, 'attr_1': 8478.0, 'attr_4': 8477.6, 'penalty': 0.5767921647063318, 'subscribers': 25815}
+{'attr_2': 8486.4, 'attr_3': 8486.8, 'attr_0': 8486.6, 'attr_1': 8486.4, 'attr_4': 7066.0, 'penalty': 0.5775540226628859, 'subscribers': 19286}
+{'attr_2': 8564.6, 'attr_3': 6727.0, 'attr_0': 8564.2, 'attr_1': 8564.6, 'attr_4': 8564.6, 'penalty': 0.5797128219079187, 'subscribers': 18268}
+{'attr_2': 8576.4, 'attr_3': 8576.4, 'attr_0': 6659.0, 'attr_1': 8576.4, 'attr_4': 8576.6, 'penalty': 0.5813584810773242, 'subscribers': 18099}
+{'attr_2': 8502.2, 'attr_3': 8502.2, 'attr_0': 8502.4, 'attr_1': 8502.4, 'attr_4': 6954.0, 'penalty': 0.5814735105361455, 'subscribers': 19072}
+{'attr_2': 8502.4, 'attr_3': 8502.2, 'attr_0': 6952.0, 'attr_1': 8502.4, 'attr_4': 8502.2, 'penalty': 0.5816459117759494, 'subscribers': 19068}
+{'attr_2': 8501.8, 'attr_3': 8501.8, 'attr_0': 8501.6, 'attr_1': 6933.0, 'attr_4': 8501.6, 'penalty': 0.5833706355614705, 'subscribers': 19077}
+{'attr_2': 8572.4, 'attr_3': 8572.4, 'attr_0': 8572.2, 'attr_1': 6650.0, 'attr_4': 8572.2, 'penalty': 0.5834220345283263, 'subscribers': 18165}
+{'attr_2': 8403.4, 'attr_3': 7315.0, 'attr_0': 8403.4, 'attr_1': 8403.6, 'attr_4': 8403.6, 'penalty': 0.584203968197465, 'subscribers': 20294}
+{'attr_2': 8669.0, 'attr_3': 8669.0, 'attr_0': 6243.0, 'attr_1': 8668.8, 'attr_4': 8668.8, 'penalty': 0.5850555895439665, 'subscribers': 16889}
+{'attr_2': 8655.0, 'attr_3': 6290.0, 'attr_0': 8655.2, 'attr_1': 8655.4, 'attr_4': 8655.2, 'penalty': 0.5856416984047206, 'subscribers': 17071}
+{'attr_2': 8904.0, 'attr_3': 8000.4, 'attr_0': 8000.6, 'attr_1': 8000.4, 'attr_4': 8000.2, 'penalty': 0.5860831148597297, 'subscribers': 13840}
+
+Running time (exclude pre compute): 0:00:00.003000
+Average running time for 50 expected solutions: 0:00:00.000060
+Memory usage: 341.147648 MB 
